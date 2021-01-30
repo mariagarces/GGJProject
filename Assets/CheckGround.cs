@@ -15,17 +15,17 @@ public class CheckGround : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        //if(gameObject.CompareTag("Ground"))
-        //{
+        if (collision.collider.tag.Equals("Ground"))
+        {
             dog.ground = true;
-        //}
+        }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    void OnCollisionExit2D(Collision2D collision)
     {
-        //if (collision.gameObject.CompareTag("Ground"))
-        //{
+        if (collision.collider.tag.Equals("Ground"))
+        {
             dog.ground = false;
-        //}
+        }
     }
 }

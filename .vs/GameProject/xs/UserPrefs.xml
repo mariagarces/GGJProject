@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{83BE2866-0A53-71D6-C680-423D67BBAD46}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CheckGround.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraFollow.cs">
     <Files>
-      <File FileName="Assets/DogController.cs" Line="26" Column="40" />
-      <File FileName="Assets/CheckGround.cs" Line="16" Column="9" />
+      <File FileName="Assets/DogController.cs" Line="11" Column="24" />
+      <File FileName="Assets/CheckGround.cs" Line="21" Column="10" />
+      <File FileName="Assets/CameraFollow.cs" Line="7" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GameProject" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="CheckGround.cs" selected="True" />
+              <Node name="CameraFollow.cs" selected="True" />
             </Node>
           </Node>
         </State>
