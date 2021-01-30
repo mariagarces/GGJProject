@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{83BE2866-0A53-71D6-C680-423D67BBAD46}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CheckGround.cs">
+    <Files>
+      <File FileName="Assets/DogController.cs" Line="26" Column="40" />
+      <File FileName="Assets/CheckGround.cs" Line="16" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GameProject" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="CheckGround.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e1fbf46a-3ea9-4ed1-aab5-96db5777e05f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
