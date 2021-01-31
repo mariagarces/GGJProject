@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 396597055}
   - component: {fileID: 396597056}
   - component: {fileID: 396597054}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pomeranian
   m_TagString: Pome
   m_Icon: {fileID: 0}
@@ -302,6 +302,7 @@ MonoBehaviour:
   axis: HorizontalPom
   speed: 10
   jumpPower: 6.5
+  attackPower: 6.5
   ground: 0
 --- !u!50 &396597055
 Rigidbody2D:
@@ -449,7 +450,7 @@ MonoBehaviour:
   follow1: {fileID: 545673374}
   follow2: {fileID: 396597050}
   minCamPos: {x: 0, y: 0}
-  maxCamPos: {x: 1, y: 0}
+  maxCamPos: {x: 10, y: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -521,7 +522,7 @@ GameObject:
   - component: {fileID: 545673379}
   - component: {fileID: 545673378}
   - component: {fileID: 545673380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,6 +677,7 @@ MonoBehaviour:
   axis: Horizontal
   speed: 10
   jumpPower: 6.5
+  attackPower: 6.5
   ground: 0
 --- !u!1 &836035240 stripped
 GameObject:
@@ -781,7 +783,7 @@ GameObject:
   - component: {fileID: 1076987806}
   - component: {fileID: 1076987807}
   - component: {fileID: 1076987808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1138,7 +1140,7 @@ GameObject:
   - component: {fileID: 1652171264}
   - component: {fileID: 1652171265}
   - component: {fileID: 1652171266}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}

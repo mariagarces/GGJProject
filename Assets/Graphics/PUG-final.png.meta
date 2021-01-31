@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: a9e1a7be3ce1748af9bebc7fa9dcb24c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1988917149992649127
+    second: PUG-final_0
+  - first:
+      213: 71916134576203297
+    second: PUG-final_1
+  - first:
+      213: 6029595950454806429
+    second: PUG-final_2
+  - first:
+      213: 4465348027639394233
+    second: PUG-final_3
+  - first:
+      213: -3031684066565814012
+    second: PUG-final_4
+  - first:
+      213: -4241908215670610956
+    second: PUG-final_5
+  - first:
+      213: -1708731583444230809
+    second: PUG-final_6
+  - first:
+      213: -59499080959728183
+    second: PUG-final_7
+  - first:
+      213: -1935581133036087325
+    second: PUG-final_8
+  - first:
+      213: 8793025712385774145
+    second: PUG-final_9
+  - first:
+      213: 3120774796193271982
+    second: PUG-final_10
+  - first:
+      213: -8544017102077220164
+    second: PUG-final_11
+  - first:
+      213: 2988887790908367764
+    second: PUG-final_12
+  - first:
+      213: 3463283976300900577
+    second: PUG-final_13
+  - first:
+      213: 8174411343460195225
+    second: PUG-final_14
+  - first:
+      213: 7926040850133259086
+    second: PUG-final_15
+  - first:
+      213: 7970180165984766146
+    second: PUG-final_16
+  - first:
+      213: 2825519052770306284
+    second: PUG-final_17
+  - first:
+      213: 7144977408580998342
+    second: PUG-final_18
+  - first:
+      213: 6029301019622922909
+    second: PUG-final_19
+  - first:
+      213: -419904582189587074
+    second: PUG-final_20
+  - first:
+      213: 1742468259705427681
+    second: PUG-final_21
+  - first:
+      213: 1078063592074035598
+    second: PUG-final_22
+  - first:
+      213: -2938776188870202883
+    second: PUG-final_23
+  - first:
+      213: 5330093911758429052
+    second: PUG-final_24
+  - first:
+      213: -6889048073230065647
+    second: PUG-final_25
+  - first:
+      213: 8402009298949812255
+    second: PUG-final_26
+  - first:
+      213: -8759720713237403555
+    second: PUG-final_27
+  - first:
+      213: -4503054863704070988
+    second: PUG-final_28
+  - first:
+      213: 3535402343277987055
+    second: PUG-final_29
+  - first:
+      213: 7366470908038500446
+    second: PUG-final_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 21
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PUG-final_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 185
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e710bc362f564e0800000000000000
+      internalID: -1988917149992649127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 185
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126a807e75f7ff000800000000000000
+      internalID: 71916134576203297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 185
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d971efd129d6da350800000000000000
+      internalID: 6029595950454806429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfefe96f5a18fd30800000000000000
+      internalID: 4465348027639394233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 163
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409022d676b4de5d0800000000000000
+      internalID: -3031684066565814012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 163
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f36423d3f6b125c0800000000000000
+      internalID: -4241908215670610956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 141
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dd0589dad5948e0800000000000000
+      internalID: -1708731583444230809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 141
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5eeeea6ed9c2ff0800000000000000
+      internalID: -59499080959728183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 141
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e79f63f63f6325e0800000000000000
+      internalID: -1935581133036087325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_9
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 141
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14251a74c4a170a70800000000000000
+      internalID: 8793025712385774145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 119
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0971f74283f4b20800000000000000
+      internalID: 3120774796193271982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 119
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba23dbb6bd8d6980800000000000000
+      internalID: -8544017102077220164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 97
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493689a2c99aa7920800000000000000
+      internalID: 2988887790908367764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 97
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0b7bb5d6e001030800000000000000
+      internalID: 3463283976300900577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 98
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b5ed69ec7517170800000000000000
+      internalID: 8174411343460195225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 75
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e439d63c824fefd60800000000000000
+      internalID: 7926040850133259086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 75
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8c26512a4cb9e60800000000000000
+      internalID: 7970180165984766146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 75
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8e876bb92463720800000000000000
+      internalID: 2825519052770306284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 75
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c459aee81f082360800000000000000
+      internalID: 7144977408580998342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 53
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a568e25516ca350800000000000000
+      internalID: 6029301019622922909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 53
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75e70bd1033c2af0800000000000000
+      internalID: -419904582189587074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_21
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 53
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6922476ad7e2810800000000000000
+      internalID: 1742468259705427681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_22
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 53
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81cada002d06fe00800000000000000
+      internalID: 1078063592074035598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 29
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9e30460ae5737d0800000000000000
+      internalID: -2938776188870202883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 29
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b55d53c2c48f940800000000000000
+      internalID: 5330093911758429052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 29
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1106882f64f2560a0800000000000000
+      internalID: -6889048073230065647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 4
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10be6f01fee99470800000000000000
+      internalID: 8402009298949812255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d586adb1c683f6680800000000000000
+      internalID: -8759720713237403555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_28
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 5
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4e2dca57fe181c0800000000000000
+      internalID: -4503054863704070988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 4
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe40b2923b5401130800000000000000
+      internalID: 3535402343277987055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PUG-final_30
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 7
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5052e9f246fa3660800000000000000
+      internalID: 7366470908038500446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

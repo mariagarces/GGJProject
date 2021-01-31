@@ -8,11 +8,13 @@ public class DogController : MonoBehaviour
     public string axis = "Horizontal";
     public float speed = 2f;
     public float jumpPower = 6.5f;
+    public float attackPower = 6.5f;
     public bool ground;
 
     private Rigidbody2D rb2d;
     private Animator anim;
     private bool jump;
+    private bool attack;
 
     // Start is called before the first frame update
     void Start()
@@ -36,9 +38,19 @@ public class DogController : MonoBehaviour
         {
             jump = true;
         }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow) && !gameObject.CompareTag("Pome") && ground)
+        {
+            attack = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.S) && gameObject.CompareTag("Pome") && ground)
+        {
+            attack = true;
+        }
     }
 
-    void FixedUpdate()
+        void FixedUpdate()
     {
         float h = Input.GetAxis(axis);
 
@@ -70,8 +82,19 @@ public class DogController : MonoBehaviour
 
         if (jump)
         {
-            rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+            rb2d.AddForce(Vector2.up * attackPower, ForceMode2D.Impulse);
             jump = false;
         }
+
+        if (attack)
+        {
+            rb2d.AddForce(Vector2.up * attackPower, ForceMode2D.Impulse);
+            attack = false;
+        }
+    }
+
+    void OnBecameInvisible()
+    {
+        
     }
 }
