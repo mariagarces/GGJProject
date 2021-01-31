@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Assets/DogController.cs" Line="23" Column="6" />
       <File FileName="Assets/CheckGround.cs" />
-      <File FileName="Assets/EnemyController.cs" Line="19" Column="23" />
+      <File FileName="Assets/EnemyController.cs" />
       <File FileName="Assets/CameraFollow.cs" />
     </Files>
     <Pads>
