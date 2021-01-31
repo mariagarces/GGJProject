@@ -100,7 +100,12 @@ public class DogController : MonoBehaviour
             jump = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.DownArrow) && !gameObject.CompareTag("Pome"))
+        {
+            attack = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.S) && gameObject.CompareTag("Pome"))
         {
             attack = true;
         }

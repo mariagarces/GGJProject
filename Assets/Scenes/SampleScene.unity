@@ -359,7 +359,6 @@ MonoBehaviour:
   axis: HorizontalPom
   speed: 10
   jumpPower: 6.5
-  attackPower: 6.5
   ground: 0
 --- !u!50 &396597055
 Rigidbody2D:
@@ -734,7 +733,6 @@ MonoBehaviour:
   axis: Horizontal
   speed: 10
   jumpPower: 6.5
-  attackPower: 6.5
   ground: 0
 --- !u!1001 &829538017
 PrefabInstance:
