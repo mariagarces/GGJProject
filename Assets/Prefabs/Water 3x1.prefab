@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5304621527972776410}
   m_Layer: 0
   m_Name: plataformas-3-2_43
-  m_TagString: Untagged
+  m_TagString: water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,9 +91,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4516264969183181842}
+  - component: {fileID: 5900589012425382566}
   m_Layer: 0
-  m_Name: Water 3x1 1
-  m_TagString: Untagged
+  m_Name: Water 3x1
+  m_TagString: water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,6 +116,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &5900589012425382566
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6204215640595808086}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0054820776, y: -0.21379799}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0064118, y: 0.572404}
+  m_EdgeRadius: 0
 --- !u!1 &7069257493410740049
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,7 +154,7 @@ GameObject:
   - component: {fileID: 1010010441909928139}
   m_Layer: 0
   m_Name: plataformas-3-2_44
-  m_TagString: Untagged
+  m_TagString: water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -209,7 +236,7 @@ GameObject:
   - component: {fileID: 6904808199068439786}
   m_Layer: 0
   m_Name: plataformas-3-2_42
-  m_TagString: Untagged
+  m_TagString: water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
