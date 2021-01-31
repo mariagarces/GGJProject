@@ -59,10 +59,8 @@
     <Compile Include="Assets/CheckGround.cs" />
     <Compile Include="Assets/CameraFollow.cs" />
     <Compile Include="Assets/EnemyController.cs" />
-    <Compile Include="Assets/BGScroll.cs" />
     <Compile Include="Assets/DogController.cs" />
-    <Compile Include="Assets/ObjectController.cs" />
-    <Compile Include="Assets/SoundManager.cs" />
+    <Compile Include="Assets/BGScroll.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

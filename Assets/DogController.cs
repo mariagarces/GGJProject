@@ -110,9 +110,4 @@ public class DogController : MonoBehaviour
             attack = true;
         }
     }
-
-    void OnBecameInvisible()
-    {
-            transform.position = new Vector3(-6, -2, -1);
-    }
 }
