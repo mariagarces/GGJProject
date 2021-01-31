@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class BGScroll : MonoBehaviour
 {
-    public float Speed = 1.5f;
+    public float Speed = 0.5f;
     Vector2 FondoPos;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +16,7 @@ public class BGScroll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //MoveFondo();
     }
 
     void MoveFondo()

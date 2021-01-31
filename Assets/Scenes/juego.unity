@@ -1458,8 +1458,8 @@ GameObject:
   - component: {fileID: 553438014}
   - component: {fileID: 553438013}
   - component: {fileID: 553438012}
-  - component: {fileID: 553438011}
   - component: {fileID: 553438015}
+  - component: {fileID: 553438011}
   m_Layer: 0
   m_Name: Fondo
   m_TagString: Untagged
@@ -1556,7 +1556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d47f591143dcd478d0fe6ac3751791, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1.5
+  Speed: 0.1
 --- !u!1001 &584013166
 PrefabInstance:
   m_ObjectHideFlags: 0
