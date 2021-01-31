@@ -59,6 +59,7 @@
     <Compile Include="Assets/DogController.cs" />
     <Compile Include="Assets/CheckGround.cs" />
     <Compile Include="Assets/CameraFollow.cs" />
+    <Compile Include="Assets/EnemyController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

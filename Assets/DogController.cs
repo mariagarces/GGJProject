@@ -8,7 +8,6 @@ public class DogController : MonoBehaviour
     public string axis = "Horizontal";
     public float speed = 2f;
     public float jumpPower = 6.5f;
-    public float attackPower = 6.5f;
     public bool ground;
 
     private Rigidbody2D rb2d;
@@ -29,35 +28,20 @@ public class DogController : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));
         anim.SetBool("Ground", ground);
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) && !gameObject.CompareTag("Pome") && ground)
-        {
-            jump = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.W) && gameObject.CompareTag("Pome") && ground)
-        {
-            jump = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.DownArrow) && !gameObject.CompareTag("Pome") && ground)
-        {
-            attack = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.S) && gameObject.CompareTag("Pome") && ground)
-        {
-            attack = true;
-        }
+        HandleInputs();
     }
 
-        void FixedUpdate()
+    void FixedUpdate()
     {
         float h = Input.GetAxis(axis);
 
         rb2d.AddForce(Vector2.right * speed * h);
 
         float limitedSpeed = Mathf.Clamp(rb2d.velocity.x, -maxSpeed, maxSpeed);
-        rb2d.velocity = new Vector2(limitedSpeed, rb2d.velocity.y);
+
+        if (!this.anim.GetCurrentAnimatorStateInfo(0).IsTag("Attack")){
+            rb2d.velocity = new Vector2(limitedSpeed, rb2d.velocity.y);
+        }
 
         if (h > 0.1f)
         {
@@ -82,19 +66,43 @@ public class DogController : MonoBehaviour
 
         if (jump)
         {
-            rb2d.AddForce(Vector2.up * attackPower, ForceMode2D.Impulse);
+            rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
             jump = false;
         }
 
-        if (attack)
-        {
-            rb2d.AddForce(Vector2.up * attackPower, ForceMode2D.Impulse);
-            attack = false;
-        }
+        HandleAttack();
+
+        ResetValues();
     }
 
-    void OnBecameInvisible()
+    private void HandleAttack()
     {
-        
+        if (attack)
+        {
+            anim.SetTrigger("Attack");
+        }   
+    }
+
+    private void ResetValues()
+    {
+        attack = false;
+    }
+
+    private void HandleInputs()
+    {
+        if (Input.GetKeyDown(KeyCode.UpArrow) && !gameObject.CompareTag("Pome") && ground)
+        {
+            jump = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.W) && gameObject.CompareTag("Pome") && ground)
+        {
+            jump = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            attack = true;
+        }
     }
 }

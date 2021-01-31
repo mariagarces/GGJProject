@@ -17,13 +17,24 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float posX = follow1.transform.position.x;
-        float posY = follow1.transform.position.y;
+        float posX1 = follow1.transform.position.x;
+        float posY1 = follow1.transform.position.y;
+        float posX2 = follow2.transform.position.x;
+        float posY2 = follow2.transform.position.y;
 
-        transform.position = new Vector3(
-            Mathf.Clamp(posX, minCamPos.x, maxCamPos.x),
-            Mathf.Clamp(posY, minCamPos.y, maxCamPos.y),
+        if (posX1 < posX2)
+        {
+            transform.position = new Vector3(
+            Mathf.Clamp(posX2, minCamPos.x, maxCamPos.x),
+            Mathf.Clamp(posY2, minCamPos.y, maxCamPos.y),
             transform.position.z);
-
+        }
+        else
+        {
+            transform.position = new Vector3(
+            Mathf.Clamp(posX1, minCamPos.x, maxCamPos.x),
+            Mathf.Clamp(posY1, minCamPos.y, maxCamPos.y),
+            transform.position.z);
+        }       
     }
 }
