@@ -15,6 +15,10 @@ public class DogController : MonoBehaviour
     private bool jump;
     private bool attack;
 
+    public AudioSource jumpSound;
+    public AudioSource attackSound;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -93,21 +97,30 @@ public class DogController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow) && !gameObject.CompareTag("Pome") && ground)
         {
             jump = true;
+            jumpSound.Play();
         }
 
         if (Input.GetKeyDown(KeyCode.W) && gameObject.CompareTag("Pome") && ground)
         {
             jump = true;
+            jumpSound.Play();
         }
 
         if (Input.GetKeyDown(KeyCode.DownArrow) && !gameObject.CompareTag("Pome"))
         {
             attack = true;
+            attackSound.Play();
         }
 
         if (Input.GetKeyDown(KeyCode.S) && gameObject.CompareTag("Pome"))
         {
             attack = true;
+            attackSound.Play();
         }
+    }
+
+    private void OnBecameInvisible()
+    {
+        transform.position = new Vector3(-6, -2, -1);
     }
 }
