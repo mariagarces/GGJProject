@@ -60,6 +60,7 @@
     <Compile Include="Assets/CameraFollow.cs" />
     <Compile Include="Assets/EnemyController.cs" />
     <Compile Include="Assets/DogController.cs" />
+    <Compile Include="Assets/BGScroll.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
