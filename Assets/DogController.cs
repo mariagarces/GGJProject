@@ -13,6 +13,7 @@ public class DogController : MonoBehaviour
     private Rigidbody2D rb2d;
     private Animator anim;
     private bool jump;
+    private bool attack;
 
     // Start is called before the first frame update
     void Start()
@@ -27,15 +28,7 @@ public class DogController : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));
         anim.SetBool("Ground", ground);
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) && !gameObject.CompareTag("Pome") && ground)
-        {
-            jump = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.W) && gameObject.CompareTag("Pome") && ground)
-        {
-            jump = true;
-        }
+        HandleInputs();
     }
 
     void FixedUpdate()
@@ -45,7 +38,10 @@ public class DogController : MonoBehaviour
         rb2d.AddForce(Vector2.right * speed * h);
 
         float limitedSpeed = Mathf.Clamp(rb2d.velocity.x, -maxSpeed, maxSpeed);
-        rb2d.velocity = new Vector2(limitedSpeed, rb2d.velocity.y);
+
+        if (!this.anim.GetCurrentAnimatorStateInfo(0).IsTag("Attack")){
+            rb2d.velocity = new Vector2(limitedSpeed, rb2d.velocity.y);
+        }
 
         if (h > 0.1f)
         {
@@ -72,6 +68,46 @@ public class DogController : MonoBehaviour
         {
             rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
             jump = false;
+        }
+
+        HandleAttack();
+
+        ResetValues();
+    }
+
+    private void HandleAttack()
+    {
+        if (attack)
+        {
+            anim.SetTrigger("Attack");
+        }   
+    }
+
+    private void ResetValues()
+    {
+        attack = false;
+    }
+
+    private void HandleInputs()
+    {
+        if (Input.GetKeyDown(KeyCode.UpArrow) && !gameObject.CompareTag("Pome") && ground)
+        {
+            jump = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.W) && gameObject.CompareTag("Pome") && ground)
+        {
+            jump = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow) && !gameObject.CompareTag("Pome"))
+        {
+            attack = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.S) && gameObject.CompareTag("Pome"))
+        {
+            attack = true;
         }
     }
 }
