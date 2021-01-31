@@ -5240,10 +5240,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a01aca8632caa437c8dbd80ed7e6f0a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  follow1: {fileID: 0}
-  follow2: {fileID: 0}
+  follow1: {fileID: 742358497}
+  follow2: {fileID: 2048822009}
   minCamPos: {x: 0, y: 0}
-  maxCamPos: {x: 0, y: 0}
+  maxCamPos: {x: 230, y: 0}
+  smoothTime: 0.15
 --- !u!1001 &1970822194
 PrefabInstance:
   m_ObjectHideFlags: 0
