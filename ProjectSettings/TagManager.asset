@@ -7,7 +7,11 @@ TagManager:
   - Ground
   - Pome
   - water
+<<<<<<< HEAD
   - Object
+=======
+  - pug
+>>>>>>> 3bac89e7abdadb771f9c4b8dedec08bf0356b3c7
   layers:
   - Default
   - TransparentFX
